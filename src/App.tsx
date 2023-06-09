@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import Header from './components/Header'
+import NavBar from './components/NavBar'
 import bgImage from './assets/jr-korpa-MlyTYRutCuI-unsplash.jpg'
 import './App.css'
 import './styles.css'
 import { Container, Box } from '@mui/material'
-import {
-  AboutMe,
-  WorkExperience,
-  SideProjects,
-  Hobbies,
-  Contact
-} from './pages'
+// import { About, Experiences, Projects, Contact } from './components'
+import { Footer } from './components'
 
 function App() {
   const [height, setHeight] = useState(0)
@@ -20,25 +15,26 @@ function App() {
 
   return (
     <>
-      <Box
+      {/* <Box
         sx={{
           backgroundImage: `url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          width: '100vw',
-          height: '100vh'
+          width: '110vw',
+          height: '110vh'
         }}
-      >
-        <Header />
-        <Container>
-          <AboutMe />
+      > */}
+      {/* <NavBar /> */}
+      <Footer />
+      {/* <Container>
+        <AboutMe />
           <WorkExperience />
           <SideProjects />
           <Hobbies />
           <Contact />
-        </Container>
-      </Box>
+      </Container> */}
+      {/* </Box> */}
     </>
   )
 }
