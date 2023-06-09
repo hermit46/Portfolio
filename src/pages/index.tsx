@@ -1,5 +1,0 @@
-export { default as AboutMe } from './AboutMe'
-export { default as WorkExperience } from './WorkExperience'
-export { default as SideProjects } from './SideProjects'
-export { default as Hobbies } from './Hobbies'
-export { default as Contact } from './Contact'
