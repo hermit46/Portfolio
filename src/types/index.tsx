@@ -1,11 +1,11 @@
-export type AboutSectionProps = {
+export type SectionProps = {
   destination: string
   lightBg: string
   id: string
   imgStart: string
   topLine: string
   lightText: string
-  headline: string
+  headline?: string
   darkText: string
   description: string
   buttonLabel: string
