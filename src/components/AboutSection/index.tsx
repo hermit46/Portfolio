@@ -13,12 +13,12 @@ import {
   Column2,
   ImgWrap,
   Img
-} from './InfoElements.tsx'
+} from '../Misc/InfoElements.tsx'
 import { Button } from '../Misc/ButtonElement'
-import { AboutSectionProps } from '../../types'
+import { SectionProps } from '../../types'
 import { BsChevronDoubleDown as ArrowDown } from 'react-icons/bs'
 
-const AboutSection: React.FC<AboutSectionProps> = ({
+const AboutSection: React.FC<SectionProps> = ({
   destination,
   lightBg,
   id,

@@ -18,19 +18,20 @@ export const infoDetails = {
 
 export const experienceDetails = {
   id: 'experience',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: true,
+  lightBg: 'false',
+  lightText: 'true',
+  lightTextDesc: 'true',
   topLine: 'My experiences',
   headline: 'Hello there!',
   description:
     "I'm Yong Quan, a recent graduate from Tufts University. I am an aspiring software engineer that hopes to build things and create products that will make a difference.",
   buttonLabel: 'My projects',
-  imgStart: false,
-  dark: true,
-  primary: true,
-  darkText: false,
-  destination: 'projects'
+  imgStart: 'false',
+  dark: 'true',
+  primary: 'true',
+  darkText: 'false',
+  destination: 'projects',
+  alt: ''
 }
 
 export const contactDetails = {
@@ -45,5 +46,6 @@ export const contactDetails = {
   imgStart: false,
   dark: true,
   primary: true,
-  darkText: false
+  darkText: false,
+  alt: ''
 }

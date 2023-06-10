@@ -91,13 +91,13 @@ interface HeadingProps {
 
 export const Heading = styled.h1<HeadingProps>`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText === 'true' ? '#f7f8f8' : '#344966')};
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 28px;
   }
 `
 
