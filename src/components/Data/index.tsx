@@ -1,18 +1,19 @@
 export const infoDetails = {
   id: 'about',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: 'true',
+  lightText: 'false',
+  lightTextDesc: 'false',
   topLine: 'About Me',
-  headline: 'Hello there!',
+  headline: 'Hello, World!',
   description:
     "I'm Yong Quan, a recent graduate from Tufts University. I am an aspiring software engineer that hopes to build things and create products that will make a difference.",
   buttonLabel: 'My experiences',
-  imgStart: false,
-  dark: false,
-  primary: false,
-  darkText: true,
-  destination: 'experience'
+  imgStart: 'false',
+  dark: 'false',
+  primary: 'false',
+  darkText: 'true',
+  destination: 'experience',
+  alt: ''
 }
 
 export const experienceDetails = {

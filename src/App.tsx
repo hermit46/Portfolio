@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import NavBar from './components/NavBar'
-import bgImage from './assets/jr-korpa-MlyTYRutCuI-unsplash.jpg'
 import './App.css'
-import './styles.css'
-import { Container, Box } from '@mui/material'
-// import { About, Experiences, Projects, Contact } from './components'
-import { Footer } from './components'
+// import './styles.css'
+import { HeroSection, Footer, AboutSection, NavBar } from './components'
+import { infoDetails } from './components/Data'
 
 function App() {
   const [height, setHeight] = useState(0)
@@ -26,6 +23,8 @@ function App() {
         }}
       > */}
       {/* <NavBar /> */}
+      <HeroSection height={height} />
+      <AboutSection height={height} {...infoDetails} />
       <Footer />
       {/* <Container>
         <AboutMe />
