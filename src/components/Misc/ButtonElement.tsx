@@ -26,6 +26,7 @@ export const Button = styled(Link)<ButtonProps>`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#ededed' : '#B4CDED')};
+    background: ${({ primary }) =>
+      primary === 'true' ? '#ededed' : '#B4CDED'};
   }
 `
