@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { Typography } from '@mui/material'
-import { motion } from 'framer-motion'
 import { Button } from '../Misc/ButtonElement'
 
 import { SectionProps } from '../../types'
@@ -178,20 +176,18 @@ const GroIntelligence = ({ darkText }: { darkText: string }) => {
       <List darkText={darkText}>
         <LiItem>
           Developed a Full-Stack Dashboard to model crop yield changes, by
-          ingesting and transforming S3 data via Python & FastAPI, & visualizing
-          data plots with React & Typescript, which improved internal analyst
-          efficiency by 50%
+          ingesting S3 data via Python & FastAPI, & visualizing data plots with
+          React & Typescript
         </LiItem>
         <LiItem>
-          Collaborated on a React & Typescript Crop Insights web-app for 100
+          Co-developed on a React & Typescript Crop Insights web-app for 100
           Data Scientists to provide a single-access data point for crop yield
           predictions, which &gt; 2x Gro’s lifetime revenue
         </LiItem>
         <LiItem>
-          Built an end-to-end React Component Library for Dev, Design and
-          Analyst Teams which improved UI reloading times by 80%, optimized
-          Docker image size to reduce storage space by 95% & deployed to ECS via
-          Terraform
+          Built an end-to-end React Component Library for Dev, Design & Analyst
+          teams, optimized Docker image size to reduce storage space by 95% &
+          deployed to ECS via Terraform
         </LiItem>
         {/* <LiItem>
           Communicated with key stakeholders in Design & Analyst teams to
