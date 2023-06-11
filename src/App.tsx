@@ -1,8 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 // import './styles.css'
-import { HeroSection, Footer, AboutSection, NavBar } from './components'
-import { infoDetails } from './components/Data'
+import {
+  HeroSection,
+  Footer,
+  AboutSection,
+  ExperienceSection,
+  NavBar,
+  ContactSection
+} from './components'
+import {
+  infoDetails,
+  experienceDetails,
+  contactDetails
+} from './components/Data'
 
 function App() {
   const [height, setHeight] = useState(0)
@@ -25,6 +36,8 @@ function App() {
       {/* <NavBar /> */}
       <HeroSection height={height} />
       <AboutSection height={height} {...infoDetails} />
+      <ExperienceSection height={height} {...experienceDetails} />
+      <ContactSection height={height} {...contactDetails} />
       <Footer />
       {/* <Container>
         <AboutMe />

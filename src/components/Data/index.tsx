@@ -30,22 +30,22 @@ export const experienceDetails = {
   dark: 'true',
   primary: 'true',
   darkText: 'false',
-  destination: 'projects',
+  destination: 'contact',
   alt: ''
 }
 
 export const contactDetails = {
   id: 'contact',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: 'true',
+  lightText: 'false',
+  lightTextDesc: 'false',
   topLine: 'Contact Me',
   headline: "Let's stay in touch",
   description: 'Click the links to visit my profiles',
   buttonLabel: 'Send an email',
-  imgStart: false,
-  dark: true,
-  primary: true,
-  darkText: false,
+  imgStart: 'false',
+  dark: 'true',
+  primary: 'true',
+  darkText: 'true',
   alt: ''
 }

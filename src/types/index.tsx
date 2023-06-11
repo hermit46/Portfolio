@@ -1,5 +1,5 @@
 export type SectionProps = {
-  destination: string
+  destination?: string
   lightBg: string
   id: string
   imgStart: string
@@ -13,4 +13,12 @@ export type SectionProps = {
   primary: string
   dark: string
   height: number
+}
+
+export type ModalProps = {
+  showModal: string
+  setShowModal: string
+  data: string
+  height: string
+  noSource: string
 }

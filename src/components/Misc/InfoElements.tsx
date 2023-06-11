@@ -212,7 +212,7 @@ export const Icon1 = styled.a<IconProps>`
   border-radius: 5%;
   border: solid 5px #cacf85;
   width: fit-content;
-  animation: ${float} 3s linear infinite;
+  animation: ${float} 3s ease-in infinite;
   &:hover {
     transition: all 0.3s ease-in-out;
     color: #b4cded;
@@ -225,7 +225,7 @@ export const Icon2 = styled.a<IconProps>`
   padding: 10px;
   border-radius: 5%;
   border: solid 5px #45d0af;
-  animation: ${float} 3s linear infinite;
+  animation: ${float} 3s ease-in infinite;
   &:hover {
     transition: all 0.3s ease-in-out;
     color: #b4cded;
@@ -239,7 +239,7 @@ export const Icon3 = styled.a<IconProps>`
   padding: 10px;
   border-radius: 5%;
   border: solid 5px #ad5c51;
-  animation: ${float} 3s linear infinite;
+  animation: ${float} 3s ease-in infinite;
   &:hover {
     transition: all 0.3s ease-in-out;
     color: #b4cded;
