@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import BG from '../../assets/jr-korpa-MlyTYRutCuI-unsplash.jpg'
+import BG from '../../../public/jr-korpa-MlyTYRutCuI-unsplash.jpg'
 import { Button } from '../Misc/ButtonElement'
 import {
   HeroContainer,

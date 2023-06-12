@@ -1,5 +1,5 @@
 import React from 'react'
-import personalProfile from '../../assets/profile.jpg'
+import personalProfile from '../../../public/profile.jpg'
 import {
   InfoContainer,
   InfoWrapper,

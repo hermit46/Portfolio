@@ -25,3 +25,4 @@ dist-ssr
 
 # Learnings from the project
 .learnings.md
+.vercel
