@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import BG from '../../assets/jr-korpa-MlyTYRutCuI-unsplash.jpg'
 import { Button } from '../Misc/ButtonElement'
 import {
@@ -36,7 +36,7 @@ const HeroSection = ({ height }: { height: number }) => {
       <HeroContent>
         <HeroTopline>Hi, I'm Yong Quan.</HeroTopline>
         <HeroHeadline>
-          Recent Tufts graduate, Aspiring software engineer.
+          Recent Tufts graduate. Aspiring software engineer.
         </HeroHeadline>
         <HeroP>
           Welcome to my portfolio: a collection of my work, skills & passion for

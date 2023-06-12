@@ -2,11 +2,6 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
-const ColorSystem = {
-  black: '#050d17',
-  white: '#f0ecec'
-}
-
 interface NavProps {
   scrollnav: string
 }
@@ -39,8 +34,8 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `
 
-export const NavLogo = styled(LinkS)`
-  color: ${ColorSystem.white};
+export const NavLogo = styled(LinkR)`
+  color: #f0ecec;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.8rem;
@@ -69,18 +64,20 @@ interface NavItemProps {
 
 export const NavItem = styled.li<NavItemProps>`
   height: 80px;
-  cursor: pointer;
-  padding-bottom: 20px;
-  border-bottom: ${({ active }) => (active ? `3px solid #45d0af` : 'none')};
+  padding-bottom: 3px;
+  /* cursor: pointer;
+  border-bottom: ${({ active }) =>
+    active === 'true' ? `3px solid #45d0af` : 'none'}; */
 `
 
 export const NavLinks = styled(LinkS)`
-  color: ${ColorSystem.white};
+  color: #f0ecec;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 2rem;
+  padding: 0 1.5rem;
   height: 100%;
+  cursor: pointer;
 
   &.active {
     border-bottom: 3px solid #45d0af;

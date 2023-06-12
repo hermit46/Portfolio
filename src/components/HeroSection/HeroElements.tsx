@@ -48,6 +48,7 @@ export const Bg = styled.img`
   -o-object-fit: fill;
   object-fit: fill;
   background: #232a34;
+  opacity: 80%;
 `
 
 export const HeroTopline = styled.h1`

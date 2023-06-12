@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { SectionProps } from '../../types'
 
 // For dark background
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { MdEmail, MdOutlineEmail } from 'react-icons/md'
+import { MdEmail } from 'react-icons/md'
 
 //For light background
 
@@ -16,7 +16,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
+  //   BtnWrap,
   Column2,
   IconWrap1,
   Icon1,
@@ -24,7 +24,7 @@ import {
   Icon2,
   Icon3
 } from '../Misc/InfoElements'
-import { Button } from '../Misc/ButtonElement'
+// import { Button } from '../Misc/ButtonElement'
 
 const ContactSection: React.FC<SectionProps> = ({
   lightBg,
@@ -35,9 +35,9 @@ const ContactSection: React.FC<SectionProps> = ({
   headline,
   darkText,
   description,
-  buttonLabel,
-  primary,
-  dark,
+  //   buttonLabel,
+  //   primary,
+  //   dark,
   height
 }) => {
   return (

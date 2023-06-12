@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import personalProfile from '../../assets/profile.jpg'
 import {
   InfoContainer,

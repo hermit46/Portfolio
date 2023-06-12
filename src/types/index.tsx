@@ -1,5 +1,5 @@
 export type SectionProps = {
-  destination?: string
+  destination: string
   lightBg: string
   id: string
   imgStart: string

@@ -1,12 +1,11 @@
-import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import {
   FooterContainer,
   FooterWrap,
   SocialLogo,
-  WebsiteRights,
-  SocialIconLink,
-  SocialIcons
+  WebsiteRights
+  // SocialIconLink,
+  // SocialIcons
 } from './FooterElements'
 
 const Footer = () => {

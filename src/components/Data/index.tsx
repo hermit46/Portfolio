@@ -47,5 +47,6 @@ export const contactDetails = {
   dark: 'true',
   primary: 'true',
   darkText: 'true',
-  alt: ''
+  alt: '',
+  destination: ''
 }
