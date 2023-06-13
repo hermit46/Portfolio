@@ -10,3 +10,5 @@ Deployment: Vercel
 Check out the website here at: https://yongquantan.vercel.app/
 
 Note: to edit static images on the app, modify the assets under public/images
+
+Inspired by [Colin Ho's](https://github.com/colin-ho) personal website!
