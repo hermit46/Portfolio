@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 import {
   HeroSection,
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
       <NavBar />
       <HeroSection height={height} />
       <AboutSection height={height} {...infoDetails} />
