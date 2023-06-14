@@ -25,7 +25,7 @@ export const experienceDetails = {
   headline: 'Hello there!',
   description:
     "I'm Yong Quan, a recent graduate from Tufts University. I am an aspiring software engineer that hopes to build things and create products that will make a difference.",
-  buttonLabel: 'My projects',
+  buttonLabel: 'Get in Touch',
   imgStart: 'false',
   dark: 'true',
   primary: 'true',
