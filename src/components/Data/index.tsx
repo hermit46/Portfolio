@@ -6,7 +6,7 @@ export const infoDetails = {
   topLine: 'About Me',
   headline: 'Hello, World!',
   description:
-    "I'm Yong Quan, a recent graduate from Tufts University. I am an aspiring software engineer that hopes to build things and create products that will make a difference.",
+    "I'm Yong Quan, a recent graduate from Tufts University with a BS in Computer Science. I am an aspiring software engineer that hopes to build things and create products that will make a difference.",
   buttonLabel: 'My experiences',
   imgStart: 'false',
   dark: 'false',
