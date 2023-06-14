@@ -1,15 +1,21 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Nav,
-  NavButton,
-  NavButtonLink,
   NavItem,
   NavLinks,
   NavMenu,
-  NavbarContainer
+  NavbarContainer,
+  MobileIcon,
+  NavButton,
+  NavButtonLink
 } from './NavBarElements'
+import { FaBars } from 'react-icons/fa'
 
-const NavBar = () => {
+const NavBar = ({
+  toggle
+}: {
+  toggle: React.MouseEventHandler<HTMLElement>
+}) => {
   const [activeTab] = useState(0)
 
   const [scrollNav, setScrollNav] = useState(false)
@@ -30,6 +36,9 @@ const NavBar = () => {
     <>
       <Nav scrollnav={scrollNav.toString()}>
         <NavbarContainer>
+          <MobileIcon onClick={toggle}>
+            <FaBars />
+          </MobileIcon>
           <NavMenu>
             <NavItem active={(activeTab === 0).toString()}>
               <NavLinks to="about" smooth={true} spy={true} offset={-80}>

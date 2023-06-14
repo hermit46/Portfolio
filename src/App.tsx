@@ -7,7 +7,8 @@ import {
   AboutSection,
   ExperienceSection,
   NavBar,
-  ContactSection
+  ContactSection,
+  Sidebar
 } from './components'
 import {
   infoDetails,
@@ -17,6 +18,12 @@ import {
 
 function App() {
   const [height, setHeight] = useState(0)
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
   useEffect(() => {
     setHeight(window.innerHeight)
   }, [])
@@ -24,7 +31,8 @@ function App() {
   return (
     <>
       <Analytics />
-      <NavBar />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <NavBar toggle={toggle} />
       <HeroSection height={height} />
       <AboutSection height={height} {...infoDetails} />
       <ExperienceSection height={height} {...experienceDetails} />
